@@ -7,7 +7,7 @@ public class Real extends Currency {
 
     @Override
     public void info() {
-        System.out.println("R$ " + this.value + "real(s)");
+        System.out.printf("R$ %.2f reais\n", this.value);
     }
 
     @Override

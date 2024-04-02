@@ -7,7 +7,7 @@ public class Euro extends Currency {
 
     @Override
     public void info() {
-        System.out.println("€ " + this.value + " euro(s)");
+        System.out.printf("€  %.2f euros\n", this.value);
     }
 
     @Override

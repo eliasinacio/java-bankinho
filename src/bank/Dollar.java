@@ -7,7 +7,7 @@ public class Dollar extends Currency {
 
     @Override
     public void info() {
-        System.out.println("$ " + this.value + " dollars");
+        System.out.printf("$  %.2f dollars\n", this.value);
     }
 
     @Override
