@@ -1,4 +1,6 @@
 // Observação: Achei mais interessante utilizar nomes para variáveis, objetos e funções em inglês.
+// Projeto de Elias Inácio Chavier Neto
+// RU: 4467027
 
 import bank.Bank;
 import bank.Currency;
