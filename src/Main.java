@@ -1,3 +1,5 @@
+// Observação: Achei mais interessante utilizar nomes para variáveis, objetos e funções em inglês.
+
 import bank.Bank;
 import bank.Currency;
 import bank.Dollar;
@@ -7,6 +9,7 @@ import menu.Menu;
 
 public class Main {
 	public static void main(String[] args) {
+		// Iniciando o Cofrinho e o Menu
 		Bank bank = new Bank();
 		Menu menu = new Menu();
 
@@ -56,7 +59,7 @@ public class Main {
 
 			} else if (menuOption == 3) {
 				System.out.println("");
-				
+
 				for (Currency currency : bank.list()) {
 					currency.info();
 				}
