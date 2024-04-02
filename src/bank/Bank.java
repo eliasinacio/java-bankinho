@@ -3,11 +3,9 @@ package bank;
 import java.util.ArrayList;
 
 public class Bank {
-	// Inicia o ArrayList para as moedas
 	ArrayList<Currency> currencies = new ArrayList<Currency>();
 	
 	public void add (Currency newCur) {
-		// Verifica se a moeda já está no ArrayList e apenas acrescenta seu valor
 		boolean currencyAlreadyExists = false;
 
 		for (Currency actualCur : currencies) {
@@ -19,7 +17,6 @@ public class Bank {
 			}
 		}
 
-		// Se a moeda não existir, adiciona ao ArrayList
 		if (!currencyAlreadyExists) {
 			currencies.add(newCur);
 		}
@@ -29,7 +26,6 @@ public class Bank {
 	}
 
 	public void remove (Currency cur) {
-		// Verifica se a moeda já está no ArrayList e remove
 		boolean currencyAlreadyExists = false;
 
 		for (Currency actualCur : currencies) {
